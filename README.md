@@ -60,10 +60,10 @@ endmodule
 */
 
 **RTL LOGIC UP COUNTER**
-<img width="979" height="553" alt="Screenshot 2025-12-13 163201" src="https://github.com/user-attachments/assets/8e7af853-b9b6-470a-907c-428411584454" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-10 112934" src="https://github.com/user-attachments/assets/67043f12-e492-4abe-b4a2-9947b2859755" />
 
 **TIMING DIAGRAM FOR IP COUNTER**
-<img width="979" height="553" alt="Screenshot 2025-12-13 163201" src="https://github.com/user-attachments/assets/8e7af853-b9b6-470a-907c-428411584454" />
+<img width="1920" height="1080" alt="Screenshot 2025-12-10 113211" src="https://github.com/user-attachments/assets/8b606da4-1a46-4639-ae31-ee94e9c24f1c" />
 
 **TRUTH TABLE**
 
