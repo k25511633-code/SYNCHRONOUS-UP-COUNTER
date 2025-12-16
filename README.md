@@ -68,4 +68,5 @@ endmodule
 **TRUTH TABLE**
 
 **RESULTS**
+
 Thus,implemented the synchronous-up-counter using verilog and validating their functionality using functional table
