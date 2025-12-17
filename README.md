@@ -34,25 +34,18 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 ```
-module Syn Co
-    input wire clk,          // clock input
-    input wire rst,          // synchronous reset
-    output reg [2:0] q       // 3-bit counter output
-);
-initial begin
-     q <= 3'b000;
-         end
+module ex11 (out,clk,rstn); 
+input clk,rstn;
+output reg [3:0] out;
+always @ (posedge clk)
+begin 
+	if(!rstn) 
+		out<=0; 
+	else 
+		out <= out+1; 
+end 
+endmodulemodule ex11 (out,clk,rstn); 
 
-always @(posedge clk)
-begin
-q <= 3'b000;
-    if (rst)
-        q <= 3'b000;        // reset counter to 0
-    else
-        q <= q + 1;         // increment counter
-end
-
-endmodule
 ```
 ### Developed by: R Kaviya
 
@@ -60,10 +53,10 @@ endmodule
 */
 
 **RTL LOGIC UP COUNTER**
-<img width="1920" height="1080" alt="Screenshot 2025-12-10 112934" src="https://github.com/user-attachments/assets/67043f12-e492-4abe-b4a2-9947b2859755" />
+<img width="1920" height="1080" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/feac307f-05dc-4fe4-bdf2-0ba448c53f91" />
 
 **TIMING DIAGRAM FOR IP COUNTER**
-<img width="1920" height="1080" alt="Screenshot 2025-12-10 113211" src="https://github.com/user-attachments/assets/8b606da4-1a46-4639-ae31-ee94e9c24f1c" />
+![WhatsApp Image 2025-12-11 at 20 52 31_5533e781](https://github.com/user-attachments/assets/52f6ae01-2e2a-4555-bc8a-00a21c6d3d4e)
 
 **TRUTH TABLE**
 
