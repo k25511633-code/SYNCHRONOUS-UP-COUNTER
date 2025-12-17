@@ -40,9 +40,9 @@ output reg [3:0] out;
 always @ (posedge clk)
 begin 
 	if(!rstn) 
-		out<=0; 
+		count<=0; 
 	else 
-		out <= out+1; 
+		count <= out+1; 
 end 
 endmodulemodule ex11 (out,clk,rstn); 
 
